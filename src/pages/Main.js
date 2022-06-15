@@ -12,7 +12,7 @@ import UseMemoPage from "./HookPages/UseMemoPage"
 import UseCallbackPage from "./HookPages/UseCallbackPage"
 
 const Main = () => {
-    return (
+    return <>
         <Routes>
             <Route path="*" element={<h1>404 Page Here</h1>}/>
 
@@ -27,7 +27,7 @@ const Main = () => {
             <Route path="/useMemo" element={<UseMemoPage/>}/>
             <Route path="/useCallback" element={<UseCallbackPage/>}/>
         </Routes>
-    )
+    </>
 }
 
 export default Main

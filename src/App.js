@@ -1,12 +1,13 @@
-import { Link } from "react-router-dom";
 import Main from "./pages/Main"
-import { useLocation } from "react-router";
 
 function App() {
-  let location = useLocation()
   return (
     <div className="App">
-      {location.pathname !== "/" ? <Link to="/">Go Home</Link> : null}
+        <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">React Hooks by Kenny Nguyen</span>
+        </div>
+        </nav>
       <Main/>
     </div>
   );

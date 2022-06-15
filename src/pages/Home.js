@@ -1,44 +1,80 @@
 import { Link } from "react-router-dom"
 
 const Home = () => {
-    return <>
-        <h1>Home Page</h1>
-        <Link to="/useState">
-            <h1>useState Link</h1>
-        </Link>
+    return <div style={{display:"grid", gridTemplateColumns:"auto auto auto", width: "80%", margin:"auto"}}>
 
-        <Link to="/useReducer">
-            <h1>useReducer Link</h1>
-        </Link>
+        <div class="card" style={{margin:"10px"}}>
+        <div class="card-body">
+            <h5 class="card-title">useState</h5>
+            <p class="card-text">Manage state of your blah blah blah</p>
+            <Link to="/useState" class="btn btn-primary">View</Link>
+        </div>
+        </div>
 
-        <Link to="/useEffect">
-            <h1>useEffect Link</h1>
-        </Link>
+        <div class="card" style={{margin:"10px"}}>
+        <div class="card-body">
+            <h5 class="card-title">useReducer</h5>
+            <p class="card-text">Manage state of your blah blah blah</p>
+            <Link to="/useReducer" class="btn btn-primary">View</Link>
+        </div>
+        </div>
 
-        <Link to="/useRef">
-            <h1>useRef Link</h1>
-        </Link>
+        <div class="card" style={{margin:"10px"}}>
+        <div class="card-body">
+            <h5 class="card-title">useEffect</h5>
+            <p class="card-text">Manage state of your blah blah blah</p>
+            <Link to="/useEffect" class="btn btn-primary">View</Link>
+        </div>
+        </div>
 
-        <Link to="/useLayoutEffect">
-            <h1>useLayoutEffect Link</h1>
-        </Link>
+        <div class="card" style={{margin:"10px"}}>
+        <div class="card-body">
+            <h5 class="card-title">useRef</h5>
+            <p class="card-text">Manage state of your blah blah blah</p>
+            <Link to="/useRef" class="btn btn-primary">View</Link>
+        </div>
+        </div>
 
-        <Link to="/useImperativeHandle">
-            <h1>useImperativeHandle Link</h1>
-        </Link>
+        <div class="card" style={{margin:"10px"}}>
+        <div class="card-body">
+            <h5 class="card-title">useLayoutEffect</h5>
+            <p class="card-text">Manage state of your blah blah blah</p>
+            <Link to="/useLayoutEffect" class="btn btn-primary">View</Link>
+        </div>
+        </div>
 
-        <Link to="/useContext">
-            <h1>useContext Link</h1>
-        </Link>
+        <div class="card" style={{margin:"10px"}}>
+        <div class="card-body">
+            <h5 class="card-title">useImperativeHandle</h5>
+            <p class="card-text">Manage state of your blah blah blah</p>
+            <Link to="/useImperativeHandle" class="btn btn-primary">View</Link>
+        </div>
+        </div>
 
-        <Link to="/useMemo">
-            <h1>useMemo Link</h1>
-        </Link>
+        <div class="card" style={{margin:"10px"}}>
+        <div class="card-body">
+            <h5 class="card-title">useContext</h5>
+            <p class="card-text">Manage state of your blah blah blah</p>
+            <Link to="/useContext" class="btn btn-primary">View</Link>
+        </div>
+        </div>
 
-        <Link to="/useCallback">
-            <h1>useCallback Link</h1>
-        </Link>
-    </>
+        <div class="card" style={{margin:"10px"}}>
+        <div class="card-body">
+            <h5 class="card-title">useMemo</h5>
+            <p class="card-text">Manage state of your blah blah blah</p>
+            <Link to="/useMemo" class="btn btn-primary">View</Link>
+        </div>
+        </div>
+
+        <div class="card" style={{margin:"10px"}}>
+        <div class="card-body">
+            <h5 class="card-title">useCallback</h5>
+            <p class="card-text">Manage state of your blah blah blah</p>
+            <Link to="/useCallback" class="btn btn-primary">View</Link>
+        </div>
+        </div>
+    </div>
 }
 
 export default Home
