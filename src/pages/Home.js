@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
 
 const Home = () => {
-    return <div style={{display:"grid", gridTemplateColumns:"auto auto auto", width: "80%", margin:"auto"}}>
+    return <div style={{width:"80%", margin:"auto"}}>
 
-        <div class="card" style={{margin:"10px"}}>
+        <div class="card" style={{width: "80%", margin:"auto", marginTop:"10px"}}>
         <div class="card-body">
             <h5 class="card-title">useState</h5>
             <p class="card-text">Manage state of your blah blah blah</p>
@@ -11,7 +11,7 @@ const Home = () => {
         </div>
         </div>
 
-        <div class="card" style={{margin:"10px"}}>
+        <div class="card" style={{width: "80%", margin:"auto", marginTop:"10px"}}>
         <div class="card-body">
             <h5 class="card-title">useReducer</h5>
             <p class="card-text">Manage state of your blah blah blah</p>
@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         </div>
 
-        <div class="card" style={{margin:"10px"}}>
+        <div class="card" style={{width: "80%", margin:"auto", marginTop:"10px"}}>
         <div class="card-body">
             <h5 class="card-title">useEffect</h5>
             <p class="card-text">Manage state of your blah blah blah</p>
@@ -27,7 +27,7 @@ const Home = () => {
         </div>
         </div>
 
-        <div class="card" style={{margin:"10px"}}>
+        <div class="card" style={{width: "80%", margin:"auto", marginTop:"10px"}}>
         <div class="card-body">
             <h5 class="card-title">useRef</h5>
             <p class="card-text">Manage state of your blah blah blah</p>
@@ -35,7 +35,7 @@ const Home = () => {
         </div>
         </div>
 
-        <div class="card" style={{margin:"10px"}}>
+        <div class="card" style={{width: "80%", margin:"auto", marginTop:"10px"}}>
         <div class="card-body">
             <h5 class="card-title">useLayoutEffect</h5>
             <p class="card-text">Manage state of your blah blah blah</p>
@@ -43,7 +43,7 @@ const Home = () => {
         </div>
         </div>
 
-        <div class="card" style={{margin:"10px"}}>
+        <div class="card" style={{width: "80%", margin:"auto", marginTop:"10px"}}>
         <div class="card-body">
             <h5 class="card-title">useImperativeHandle</h5>
             <p class="card-text">Manage state of your blah blah blah</p>
@@ -51,7 +51,7 @@ const Home = () => {
         </div>
         </div>
 
-        <div class="card" style={{margin:"10px"}}>
+        <div class="card" style={{width: "80%", margin:"auto", marginTop:"10px"}}>
         <div class="card-body">
             <h5 class="card-title">useContext</h5>
             <p class="card-text">Manage state of your blah blah blah</p>
@@ -59,7 +59,7 @@ const Home = () => {
         </div>
         </div>
 
-        <div class="card" style={{margin:"10px"}}>
+        <div class="card" style={{width: "80%", margin:"auto", marginTop:"10px"}}>
         <div class="card-body">
             <h5 class="card-title">useMemo</h5>
             <p class="card-text">Manage state of your blah blah blah</p>
@@ -67,7 +67,7 @@ const Home = () => {
         </div>
         </div>
 
-        <div class="card" style={{margin:"10px"}}>
+        <div class="card" style={{width: "80%", margin:"auto", marginTop:"10px"}}>
         <div class="card-body">
             <h5 class="card-title">useCallback</h5>
             <p class="card-text">Manage state of your blah blah blah</p>
