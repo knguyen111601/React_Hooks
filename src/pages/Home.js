@@ -18,6 +18,26 @@ const Home = () => {
         <Link to="/useRef">
             <h1>useRef Link</h1>
         </Link>
+
+        <Link to="/useLayoutEffect">
+            <h1>useLayoutEffect Link</h1>
+        </Link>
+
+        <Link to="/useImperativeHandle">
+            <h1>useImperativeHandle Link</h1>
+        </Link>
+
+        <Link to="/useContext">
+            <h1>useContext Link</h1>
+        </Link>
+
+        <Link to="/useMemo">
+            <h1>useMemo Link</h1>
+        </Link>
+
+        <Link to="/useCallback">
+            <h1>useCallback Link</h1>
+        </Link>
     </>
 }
 
